@@ -1,31 +1,60 @@
 html {
-    font-family: 'Open Sans', sans-serif;
+    font-family:  sans-serif;
     background-color: #929292;
 }
 
-p li {
-    font-size: 16px;
-    line-height: 2;
-    letter-spacing: 1px;
-}
-
-body {
-    width: 600px;
+body{
+    width: 800px;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 10px;
     background-color: #FF9500;
     padding: 10px 20px 20px 20px;
     border: 5px solid black;
 }
 
-h1 {
-    margin: 0 auto;
-    padding: 20px 0;
-    color: #00539F;
-    text-shadow: 3px 3px 1px black;
+#info{
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    height: 320px;
 }
 
-img{
+#info #name{
+    width: 400px;
+    height: 280px;
+    padding-top: 20px;
+}
+
+#info #name #nickname{
     display: block;
-    margin: 0 auto;
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+#info #name ul{
+    display: block;
+    padding-left: 20px;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+#info #name ul li{
+    list-style: none;
+}
+
+li img{
+    margin-right: 20px;
+    transform: translateY(8px);
+}
+
+#headphoto{
+    display: flex;
+    justify-content: left;
+    width: 300px;
+    height: 300px;
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
 }
