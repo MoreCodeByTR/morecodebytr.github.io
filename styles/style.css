@@ -58,3 +58,19 @@ p{
     font-size: 20px;
     text-align: justify;
 }
+
+.projects{
+    width: 100%;
+}
+
+.line{
+    width: 96%;
+    height: 2px;
+    background-color: brown;
+}
+
+.itemul{
+    list-style: decimal;
+    font-size: 20px;
+}
+
